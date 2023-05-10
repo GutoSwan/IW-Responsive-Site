@@ -11,7 +11,14 @@
     <link rel="stylesheet" href="../js/bootstrap.js">
 </head>
 <header>
-  <include src="navbar.html"></include>
+    <div id="header">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+          $(function() {
+            $("#header").load("../header.html");
+          })
+        </script>
+      </div>
 </header>
 <body> 
     <div name="quem-somos">
@@ -39,6 +46,13 @@
         <img src="" alt="">Foto IW
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae natus rem ipsam asperiores voluptates dolorem consectetur, corrupti necessitatibus eum officiis distinctio. Dolores in asperiores ad? Minima quisquam autem assumenda in!</p>
     </div>
-  
+    <div id="footer">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+          $(function() {
+            $("#footer").load("../footer.html");
+          })
+        </script>
+      </div>
 </body>
 </html>

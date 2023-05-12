@@ -2,77 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IW</title>
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="js/index.js">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="js/bootstrap.js">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/bootstrap.js"></script>
+  <script>
+    $(function() {
+      $("#header").load("headers/header.html");
+      $("#footer").load("headers/footer.html");
+    })
+  </script>
 </head>
 <body>  
-  <div id="header">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-      $(function() {
-        $("#header").load("headers/header.html");
-      })
-    </script>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div id="header"></div>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div name="imagem"></div>
+        </div>
+        <div class="col-sm">
+          <div name="bloco-2"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div name="bloco-3"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div name="bloco-4"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div name="bloco-5">
+            <h2>Título 5</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus praesentium ex perspiciatis blanditiis ab? Libero ut eligendi ab obcaecati sed ipsa perspiciatis vero officiis quibusdam totam, adipisci tempore, vel non.</p>
+            <form action="">
+              <label for="">Nome</label>
+              <input type="text">
+              <label for="">Email</label>
+              <input type="text">
+              <label for="">Telefone</label>
+            <input type="text">
+            <label for="">Mensagem</label>
+            <input type="text">
+            <input type="submit">
+          </form>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <div name="imagem"></div>
+    <section>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/asasas.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>texto</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minima maxime assumenda minus aliquam, consequatur, sed inventore fugit nobis, odit expedita nihil ipsam quae enim delectus aspernatur saepe deserunt provident.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/asasas.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>texto</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eos ipsum dolores quibusdam, laudantium quia est perferendis id velit amet vel exercitationem? Quas autem, error deserunt atque quisquam libero explicabo?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/asasas.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>texto</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam labore deserunt, eius dicta ab excepturi distinctio recusandae eveniet facilis ut nisi optio, quasi nemo, molestias ea beatae amet cum perferendis?</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="col">
-        <div name="bloco-2"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div name="bloco-3"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div name="bloco-4"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div name="bloco-5"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div>
-        <h2>Título 5</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus praesentium ex perspiciatis blanditiis ab? Libero ut eligendi ab obcaecati sed ipsa perspiciatis vero officiis quibusdam totam, adipisci tempore, vel non.</p>
-        <form action="">
-          <label for="">Nome</label>
-          <input type="text">
-          <label for="">Email</label>
-          <input type="text">
-          <label for="">Telefone</label>
-          <input type="text">
-          <label for="">Mensagem</label>
-          <input type="text">
-          <input type="submit">
-        </form>
-    </div>
-  </div>
+    </section>
+  </header>
+  
   <div id="footer">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-      $(function() {
-        $("#footer").load("headers/footer.html");
-      })
-    </script>
   </div>
 </body>
 </html>

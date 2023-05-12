@@ -382,6 +382,8 @@ section:last-child,
   width: 100%;
 }
 
+
+
 .row>.off-12 {
   margin-left: 100%;
 }
@@ -1547,7 +1549,6 @@ section:last-child,
 .bordered-feature-image {
   display: block;
   background: #fff url("images/bg04.png");
-  padding: 10px;
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
   margin: 0 0 1.5em 0;
   outline: 0;
@@ -1557,6 +1558,16 @@ section:last-child,
   display: block;
   width: 100%;
 }
+
+.bordered-feature-image-quemsomos img {
+  display: block;
+  background: #fff url("images/bg04.png");
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+  margin: 0 0 1.5em 0;
+  outline: 0;
+  width: 100%;
+}
+
 
 .button-large {
   background-image: -moz-linear-gradient(top, #6a00fd, #9507ed);

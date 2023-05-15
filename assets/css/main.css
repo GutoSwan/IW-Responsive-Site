@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
 
+
+
 html,
 body,
 div,
@@ -1667,14 +1669,6 @@ section:last-child,
   margin-bottom: 0;
 }
 
-#banner p {
-  font-size: 2em;
-  font-weight: 200;
-  line-height: 1.25em;
-  padding-right: 1em;
-  margin: 0 0 1em 0;
-}
-
 /* Features */
 
 #features {
@@ -2155,8 +2149,4 @@ section:last-child,
   #copyright {
     padding: 20px 30px;
   }
-
-
-
-
 }

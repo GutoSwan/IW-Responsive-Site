@@ -1,0 +1,15 @@
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#icongroup {
+  display: flex;
+  justify-content: center;
+}
+
+#icongroup div {
+  margin-right: 1em;
+}

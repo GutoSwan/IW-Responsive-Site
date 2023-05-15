@@ -1673,7 +1673,6 @@ section:last-child,
 
 #features {
   background: #E2E2E2;
-  border-bottom: solid 1px #15a6e4;
   padding-top: 25px;
   text-align: center;
 }
@@ -1728,36 +1727,8 @@ section:last-child,
 
 /* Content */
 
-#content {
-  background: rgb(86, 68, 221) url("images/bg04.png");
-  border-top: solid 1px #010000;
-  padding: 45px 0 45px 0;
-}
-
-#content section {
-  background: #fff;
-  padding: 40px 30px 45px 30px;
-  box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
-  margin: 0 0 25px 0;
-}
-
-#content h2 {
-  font-size: 1.8em;
-  color: #0b9acf;
-  margin: 0 0 0.25em 0;
-}
-
-#content h3 {
-  color: #0f89d4d7;
-  font-size: 1.25em;
-}
-
-#content a {
-  color: #f22704;
-}
-
-#content header {
-  margin: 0 0 2em 0;
+#content{
+  text-align: center;
 }
 
 #content .quote-list li {
@@ -1770,6 +1741,40 @@ section:last-child,
 
 #content .check-list li {
   border-bottom: solid 1px #178ec9;
+}
+
+
+#gradient-1{
+  background: linear-gradient(74.02deg, #FD5308 0%, #FFCB87 100%);
+  padding:100px
+}
+#gradient-2{
+  background: linear-gradient(74.02deg, #FE2712 0%, #F1896E 100%);
+}
+#gradient-3{
+  background: linear-gradient(74.02deg, #A7194B 0%, #F2896D 100%);
+}
+
+#gradient-4{
+  background: linear-gradient(95.32deg, #5644DD 7.2%, #9352BA 111.19%);
+  padding: 170px;
+}
+
+.aqui-sabem{
+  background-color: #fff;
+  background: url("../../images/images/back1.png");
+  padding: 30px;
+}
+
+.aqui-sabem h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  background: #F2896D;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Footer */

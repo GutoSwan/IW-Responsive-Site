@@ -2154,4 +2154,8 @@ section:last-child,
   #copyright {
     padding: 20px 30px;
   }
+
+  #aluno-1 {
+    background: black;
+  }
 }

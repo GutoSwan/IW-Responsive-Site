@@ -62,19 +62,19 @@
 }
 
 .gradiente-1 {
-  background: radial-gradient(circle, #5644DD, #9352BA);
+
   width: 50vh;
   height: 50vh;
 }
 
 .gradiente-2 {
-  background: radial-gradient(circle, #5644DD, #9352BA);
+  
   width: 50vh;
   height: 50vh;
 }
 
 .gradiente-3 {
-  background: linear-gradient(to bottom right, #5644DD, #9352BA);
+
   width: 50vh;
   height: 50vh;
   display: flex;
@@ -143,4 +143,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 18px;
+}
+
+#crencas{
+  background: radial-gradient(circle, #5644DD, #9352BA);
 }

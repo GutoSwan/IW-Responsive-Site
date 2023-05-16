@@ -2158,4 +2158,8 @@ section:last-child,
   #aluno-1 {
     background: black;
   }
+
+  #crencas{
+    background: radial-gradient(circle, #5644DD, #9352BA);
+  }
 }

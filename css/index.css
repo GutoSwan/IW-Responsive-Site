@@ -13,3 +13,72 @@
 #icongroup div {
   margin-right: 1em;
 }
+
+.coluna {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.coluna-1 {
+  background: radial-gradient(circle, #FD5308, #FFCB87);
+  width: 50vh;
+  height: 50vh;
+}
+
+.coluna-2 {
+  background: radial-gradient(circle, #FE2712, #F1896E);
+  width: 50vh;
+  height: 50vh;
+}
+
+.coluna-3 {
+  background: linear-gradient(to bottom right, #A7194B, #F2896D);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50vh;
+  height: 50vh;
+}
+
+.grad {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.gradiente-1 {
+  background: radial-gradient(circle, #5644DD, #9352BA);
+  width: 50vh;
+  height: 50vh;
+}
+
+.gradiente-2 {
+  background: radial-gradient(circle, #5644DD, #9352BA);
+  width: 50vh;
+  height: 50vh;
+}
+
+.gradiente-3 {
+  background: linear-gradient(to bottom right, #5644DD, #9352BA);
+  width: 50vh;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}

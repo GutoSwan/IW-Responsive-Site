@@ -10,11 +10,17 @@
         <link rel="stylesheet" href="js/index.js">
         <link rel="stylesheet" href="js/bootstrap.js">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <style>
-          .form-control.rounded-input {
-          border-radius: 20px;
-          }
-        </style>
+    <style>
+      .carousel-container {
+        height: 400px;
+      }
+    
+      .carousel-item img {
+        height: 400px;
+        object-fit: cover;
+      }
+    </style>
+    
        
     </head>
     <body>
@@ -67,24 +73,26 @@
                   </div>
                 </nav>
 			</div>
-					<div id="banner">
-							<div id="carouselExampleIndicators" class="carousel slide">
-								<div class="carousel-indicators">
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active">
-										<img src="images/images/img1.jpg" class="d-block w-100" alt="...">
-									</div>
-									<div class="carousel-item">
-										<img src="images/images/img2.jpg" class="d-block w-100" alt="...">
-								    </div>
-									<div class="carousel-item">
-										<img src="images/images/img3.jpg" class="d-block w-100" alt="...">
-									</div>
-								</div>
+      <div id="banner">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/images/img1.jpg" class="d-blox w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/images/img2.jpg" class="d-block w-100" alt="...">
+              </div>
+            <div class="carousel-item">
+              <img src="images/images/img3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
 								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 					         		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 									<span class="visually-hidden">Previous</span>

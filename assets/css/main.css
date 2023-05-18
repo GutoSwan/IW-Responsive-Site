@@ -1947,7 +1947,7 @@ section:last-child,
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     display: block;
-    height: 44px;
+    height: 60px;
     left: 0;
     position: fixed;
     top: 0;
@@ -1955,7 +1955,6 @@ section:last-child,
     z-index: 10001;
     color: #fff;
     background:#FFFFFF;
-    box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
   }
 
   #titleBar .title {
@@ -1964,6 +1963,7 @@ section:last-child,
     font-size: 1.2em;
     font-weight: 400;
     line-height: 48px;
+    padding: 5px 0 0 0;
   }
 
   #titleBar .toggle {
@@ -1991,8 +1991,8 @@ section:last-child,
     width: 30px;
     height: 30px;
     background: url("images/mobileUI-site-nav-opener-bg.svg");
-    top: 18px;
-    left: 20px;
+    top: 24px;
+    left: 88vw;
     z-index: 1;
     opacity: 1;
     color: #535484;
@@ -2003,10 +2003,10 @@ section:last-child,
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-    -moz-transform: translateX(-275px);
-    -webkit-transform: translateX(-275px);
-    -ms-transform: translateX(-275px);
-    transform: translateX(-275px);
+    -moz-transform: translateX(426px);
+    -webkit-transform: translateX(426px);
+    -ms-transform: translateX(426px);
+    transform: translateX(426px);
     -moz-transition: -moz-transform 0.5s ease;
     -webkit-transition: -webkit-transform 0.5s ease;
     -ms-transition: -ms-transform 0.5s ease;
@@ -2042,24 +2042,24 @@ section:last-child,
   }
 
   body.navPanel-visible #page-wrapper {
-    -moz-transform: translateX(275px);
-    -webkit-transform: translateX(275px);
-    -ms-transform: translateX(275px);
-    transform: translateX(275px);
+    -moz-transform: translateX(-275px);
+    -webkit-transform: translateX(-275px);
+    -ms-transform: translateX(-275px);
+    transform: translateX(-275px);
   }
 
   body.navPanel-visible #titleBar {
-    -moz-transform: translateX(275px);
-    -webkit-transform: translateX(275px);
-    -ms-transform: translateX(275px);
-    transform: translateX(275px);
+    -moz-transform: translateX(-275px);
+    -webkit-transform: translateX(-275px);
+    -ms-transform: translateX(-275px);
+    transform: translateX(-275px);
   }
 
   body.navPanel-visible #navPanel {
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -moz-transform: translateX(150px);
+    -webkit-transform: translateX(150px);
+    -ms-transform: translateX(150px);
+    transform: translateX(150px);
   }
 
 }

@@ -1,17 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+
 #icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+}
+
+#icons img{
+  margin-bottom: 10px;
+  width: 55%;
 }
 
 #icongroup {
   display: flex;
   justify-content: center;
+  text-align: center;
+  padding: 15px 30px;
+
 }
 
+#icongroup img{
+  width: 65%;
+}
+
+
 #icongroup div {
-  margin-right: 1em;
+  margin: 0 0.5em 0 0.5em;
+}
+
+#part-footer{
+  background-color: #F4EFE9;
+}
+
+#icons a{
+  text-align: center;
 }
 
 .coluna {
@@ -51,7 +75,6 @@
 
 .grad {
   height: 200px;
-  display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
@@ -60,27 +83,21 @@
 }
 
 .gradiente-1 {
-  background: radial-gradient(circle, #5644DD, #9352BA);
+
   width: 50vh;
-  height: 50vh;
+  height: 40vh;
 }
 
 .gradiente-2 {
-  background: radial-gradient(circle, #5644DD, #9352BA);
+  
   width: 50vh;
-  height: 50vh;
+  height: 40vh;
 }
 
 .gradiente-3 {
-  background: linear-gradient(to bottom right, #5644DD, #9352BA);
+
   width: 50vh;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
+  height: 40vh;
 }
 
 #aluno-1{
@@ -141,4 +158,121 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 18px;
+}
+
+#crencas{
+  background: linear-gradient(#5644DD, #9352BA);
+}
+
+.iw-inov h2{
+  font-weight: 700;
+  font-family: 'Inter';
+  padding-bottom: 5px;
+}
+
+#garantir-vaga{
+  padding: 20px;
+  background-image: url(../images/images/back1.png);
+}
+
+#button-fox button{
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#grad1{
+  width: 8%;
+}
+
+
+
+
+#first-value p{
+  font-family: 'Inter';
+  font-size: 20px;
+}
+
+#second-value p{
+  font-family: 'Inter';
+  font-size: 20px;
+}
+
+#third-value p{
+  font-family: 'Inter';
+  font-size: 20px;
+}
+
+
+
+#form h2{
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+#form p{
+  color: #535484;
+}
+
+.vantagens h2{
+  font-weight: 700;
+  color: #fff;
+  padding: 30px 0 0 0;
+
+}
+
+#first-value img{
+  padding: 25px 0 15px 0;
+}
+
+#first-value h2{
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+
+#first-value p{
+  font-weight: 500;
+
+}
+
+#third-value img{
+  padding: 25px 0 15px 0;
+}
+
+#third-value h2{
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+
+#third-value p{
+  font-weight: 500;
+
+}
+
+#second-value img{
+  padding: 25px 0 15px 0;
+}
+
+#second-value h2{
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+
+#second-value p{
+  font-weight: 500;
+
+}
+
+
+
+#logo img{
+  width: 150%;
+}
+
+.linha{
+  border-bottom: solid 3px #CDCDCD;
+  border-radius: 2px;
 }

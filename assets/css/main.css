@@ -1670,7 +1670,7 @@ section:last-child,
 
 #features {
   background: #E2E2E2;
-  padding-top: 25px;
+  padding-top: 5px;
   text-align: center;
 }
 
@@ -1685,7 +1685,8 @@ section:last-child,
 }
 
 .btn-wrap img{
-  width: 70%;
+  width: 70vh;
+  margin: 25px 0 0 -10vh; 
 }
 
 .btn-wrap button{
@@ -1696,11 +1697,11 @@ section:last-child,
   position:absolute;
   z-index:1;
   top:90%;
-  left:44%;
+  left: 50%;
   width:230px;               /* largura para o botão */
   height:55px;              /* altura para o botão */
   padding:0;
-  margin:-15px 0 0 -30px;   /* margem à esquerda e ao topo metade da medida do botão */
+  margin:-25px 0 0 -12vh;   /* margem à esquerda e ao topo metade da medida do botão */
   border:0 none;
   background-color: #FF9000;
   border-radius: 10px;
@@ -1710,7 +1711,7 @@ section:last-child,
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 3vh;
   color: #535484;
 }
 
@@ -1718,7 +1719,7 @@ section:last-child,
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 4vh;
   color: #00A9B5;
 }
 
@@ -1920,10 +1921,6 @@ section:last-child,
   }
 
   /* Content */
-
-  #content {
-    padding: 25px 0;
-  }
 
   /* Nav */
 

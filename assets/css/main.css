@@ -2003,10 +2003,10 @@ section:last-child,
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-    -moz-transform: translateX(426px);
-    -webkit-transform: translateX(426px);
-    -ms-transform: translateX(426px);
-    transform: translateX(426px);
+    -moz-transform: translateX(418px);
+    -webkit-transform: translateX(418px);
+    -ms-transform: translateX(418px);
+    transform: translateX(418px);
     -moz-transition: -moz-transform 0.5s ease;
     -webkit-transition: -webkit-transform 0.5s ease;
     -ms-transition: -ms-transform 0.5s ease;
@@ -2056,10 +2056,10 @@ section:last-child,
   }
 
   body.navPanel-visible #navPanel {
-    -moz-transform: translateX(150px);
-    -webkit-transform: translateX(150px);
-    -ms-transform: translateX(150px);
-    transform: translateX(150px);
+    -moz-transform: translateX(143px);
+    -webkit-transform: translateX(143px);
+    -ms-transform: translateX(143px);
+    transform: translateX(143px);
   }
 
 }

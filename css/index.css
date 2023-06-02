@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+
 @media only screen and (max-width: 768px) {
    .btn-wrap img{
     margin: 25px 0 0 -50px;
@@ -14,6 +16,10 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+}
 
 #icons {
   display: flex;
@@ -297,7 +303,20 @@
   padding: 20px;
   color: white;
   border-radius: 10px;
-  margin-bottom: 3.37rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-box-shadow: 10px 10px 12px -7px rgba(0,0,0,0.41);
+  -moz-box-shadow: 10px 10px 12px -7px rgba(0,0,0,0.41);
+  box-shadow: 10px 10px 12px -7px rgba(0,0,0,0.41);
+}
+
+#fale-conosco{
+  height: 67.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #main-content{

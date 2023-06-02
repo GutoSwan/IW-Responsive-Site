@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
 
 @media only screen and (max-width: 768px) {
-   .btn-wrap img{
+  .btn-wrap img {
     margin: 25px 0 0 -50px;
-   }
-   .btn-wrap button{
+  }
+
+  .btn-wrap button {
     left: 45%;
-   }
-   .fale-ing{
+  }
+
+  .fale-ing {
     font-size: 2rem;
-   }
-   .tit-bot-matricule-se{
+  }
+
+  .tit-bot-matricule-se {
     font-size: 1rem;
-   }
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
@@ -319,11 +322,11 @@
   align-items: center;
 }
 
-#main-content{
+#main-content {
   padding: 20px 0 0 0;
 }
 
-#main-content > h1{
+#main-content>h1 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -334,7 +337,7 @@
   margin: 0 0 20px 0;
 }
 
-#main-content > div > h2{
+#main-content>div>h2 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
@@ -346,21 +349,21 @@
   color: #00A9B5;
 }
 
-.estud_img{
+.estud_img {
   display: flex;
   justify-content: center;
   margin: 20px 0 0 0;
 }
 
-.estud_img img{
+.estud_img img {
   width: 50%;
 }
 
-#conteudo{
+#conteudo {
   background: url(../images/images/back2.png);
 }
 
-.tit_faleconosco{
+.tit_faleconosco {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;

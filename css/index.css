@@ -306,7 +306,7 @@
   padding: 20px;
   color: white;
   border-radius: 10px;
-  height: 250px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -316,7 +316,7 @@
 }
 
 #fale-conosco {
-  height: 67.4vh;
+  padding: 0 0 2rem;
   display: flex;
   justify-content: center;
   align-items: center;

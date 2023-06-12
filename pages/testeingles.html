@@ -14,6 +14,46 @@
             .form-control.rounded-input {
             border-radius: 20px;
             }
+          .modal {
+              display: none;
+              position: fixed;
+              z-index: 1;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              overflow: auto;
+              background-color: rgba(0, 0, 0, 0.4);
+          }
+          .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+          
+          .modal-content {
+              background-color: #fefefe;
+              margin: 15% auto;
+              padding: 20px;
+              border: 1px solid #888;
+              width: 80%;
+              max-width: 400px;
+          }
+          
+          .close {
+              color: #aaa;
+              float: right;
+              font-size: 28px;
+              font-weight: bold;
+              cursor: pointer;
+          }
+          
+          .close:hover,
+          .close:focus {
+              color: black;
+              text-decoration: none;
+              cursor: pointer;
+          }
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,6 +113,7 @@
 </section>
 <div id="conteudo">
     <div class="container">
+<<<<<<< HEAD
         <div class="row">
             <div class="col-12">
                 <div id="main-content">
@@ -134,12 +175,82 @@
                             <div class="col-lg-8 col-sm-12">
                                 <img src="../images/images/estudantes.png" alt="" width="100%">
                             </div>
+=======
+        <div id="main-content">
+            <h1 align="center" style="padding: 10px;">TESTE DE INGLÊS</h1>
+            <div style="justify-content: center;" align="center">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusantium explicabo ut vitae corrupti id quidem delectus temporibus iusto, facilis voluptas nobis pariatur et reiciendis odio ipsum praesentium enim. Pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore modi, hic, dolor, voluptas aperiam soluta odio tenetur excepturi veritatis voluptatum ullam quas voluptatibus reiciendis non mollitia optio tempora tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus soluta odit reiciendis optio, facilis quis tempora ex dolorem sed debitis, excepturi distinctio eos veritatis, molestiae voluptatem inventore? Dignissimos, fugit harum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusantium explicabo ut vitae corrupti id quidem delectus temporibus iusto, facilis voluptas nobis pariatur et reiciendis odio ipsum praesentium enim. Pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore modi, hic, dolor, voluptas aperiam soluta odio tenetur excepturi veritatis voluptatum ullam quas voluptatibus reiciendis non mollitia optio tempora tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus soluta odit reiciendis optio, facilis quis tempora ex dolorem sed debitis, excepturi distinctio eos veritatis, molestiae voluptatem inventore? Dignissimos, fugit harum.</p>
+            </div>
+            <div align="center">
+                <h2 style="color: #00A9B5;line-height: 30px;" align="center">Perguntas criadas especialmente para o teste de inglês!</h2>
+                <div style="margin-top: 20px;" id="button-fox">
+                    <button
+                        type="submit"
+                        class="btn text-white"
+                        style="background-color: #FF9000; width: 250px; height: 50px;font-size: 1.5rem;"
+                        id="openModalButton"
+                    >INICIAR O TESTE</button>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span style="display: flex; justify-content: end; padding-bottom: 20px;" class="close">&times;</span>
+                        <h1 align="center" style="font-family: 'Inter'; font-style: normal; font-weight: 900; font-size: 2.5rem; line-height: 29px; text-transform: capitalize; color: #535484; margin: 0 0 20px 0;">TESTE DE INGLÊS</h1>
+                        <div id="form-controller" style="padding: 40px;">
+                            <label id="form1" for="form1">
+                                dsafgdesa
+                                <input type="text" id="form1" style="border-radius: 10px; width: 100%;">
+                            </label>
+                            <label id="form2" for="form2">
+                                dsafgdesa
+                                <input type="text" id="form2" style="border-radius: 10px; width: 100%;">
+                            </label>
+                            <label id="form3" for="form3">
+                                dsafgdesa
+                                <input type="text" id="form3" style="border-radius: 10px; width: 100%;">
+                            </label>
+                            <label id="form4" for="form4">
+                                dsafgdesa
+                                <input type="text" id="form4" style="border-radius: 10px; width: 100%;">
+                            </label>
+                            <label id="form5" for="form5">
+                                dsafgdesa
+                                <input type="text" id="form5" style="border-radius: 10px; width: 100%;">
+                            </label>
+                            <label id="form6" for="form6">
+                                dsafgdesa
+                                <input type="text" id="form6" style="border-radius: 10px; width: 100%;">
+                            </label>
+                        </div>
+                        <div class="button-container" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                            <button
+                                type="submit"
+                                class="btn text-white"
+                                style="background-color: #FF9000; width: 48%; height: 50%; font-size: 1.5rem; margin-bottom: 10px; margin-right: 2%;"
+                                id="openModalButton"
+                            >text</button>
+                            <button
+                                type="submit"
+                                class="btn text-white"
+                                style="background-color: #535484; width: 48%; height: 50%; font-size: 1.5rem; margin-bottom: 10px; margin-left: 2%;"
+                                id="openModalButton"
+                            >text</button>
+>>>>>>> 07e18d7bfab7763e90b2957bbd9d85afb3998096
                         </div>
                     </div>
                 </div>
             </div>
          </div>
     </div>
+<<<<<<< HEAD
+=======
+</div>
+</div>
+<div class="estud_img">
+    <img src="../images/images/estudantes.png" alt="">
+</div>
+</div>
+>>>>>>> 07e18d7bfab7763e90b2957bbd9d85afb3998096
 </div>
 <div class="linha">
     <hr hidden>
@@ -173,5 +284,24 @@
     &copy; Copyright © 2023
     <a style="display: block;"> iW English School • Todos os direitos reservados</a>
 </div>
+<script>
+  var modal = document.getElementById("myModal");
+  var btn = document.getElementById("openModalButton");
+  var span = document.getElementsByClassName("close")[0];
+
+  btn.onclick = function() {
+      modal.style.display = "block";
+  };
+
+  span.onclick = function() {
+      modal.style.display = "none";
+  };
+
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  };
+</script>
 </body>
 </html>

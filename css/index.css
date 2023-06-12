@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100;200;400;500;600;700;800;900&family=Poppins:wght@300;500;700;900&display=swap');
 
 @media only screen and (max-width: 768px) {
   .btn-wrap img {
@@ -6,7 +6,7 @@
   }
 
   .btn-wrap button {
-    left: 45%;
+    left: 47%;
   }
 
   .fale-ing {
@@ -18,10 +18,28 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+@media(max-width: 768px){
+  .row > .tit_faleconosco{
+    font-size: 1.7rem;
+    line-height: 30px
+  }
+  div > #main-content{
+    align-items: flex-start;
+  }
+
+  div > #button-fox{
+    display: flex ;
+    justify-content: flex-start;
+  }
+}
+
+#button-fox{
+  display: flex ;
+  justify-content: center;
+}
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #icons {
@@ -35,6 +53,12 @@
 #icons img {
   margin-bottom: 10px;
   width: 55%;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
 }
 
 #icongroup {
@@ -190,7 +214,6 @@
 
 .iw-inov h2 {
   font-weight: 700;
-  font-family: 'Inter';
   padding-bottom: 5px;
 }
 
@@ -200,7 +223,6 @@
 }
 
 #button-fox button {
-  font-family: 'Inter';
   font-size: 18px;
   font-weight: 700;
 }
@@ -213,17 +235,14 @@
 
 
 #first-value p {
-  font-family: 'Inter';
   font-size: 20px;
 }
 
 #second-value p {
-  font-family: 'Inter';
   font-size: 20px;
 }
 
 #third-value p {
-  font-family: 'Inter';
   font-size: 20px;
 }
 
@@ -324,12 +343,14 @@
 
 #main-content {
   padding: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #main-content>h1 {
-  font-family: 'Inter';
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2.5rem;
   line-height: 29px;
   text-transform: capitalize;
@@ -338,14 +359,11 @@
 }
 
 #main-content>div>h2 {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 2rem;
   line-height: 19px;
-  text-align: center;
   text-transform: uppercase;
-  margin: 40px 0;
   color: #00A9B5;
 }
 
@@ -359,16 +377,14 @@
   width: 50%;
 }
 
-#conteudo {
-  background: url(../images/images/back2.png);
-}
+
 
 .tit_faleconosco {
-  font-family: 'Inter';
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2rem;
   text-transform: uppercase;
+  line-height: 40px;
   color: #535484;
   padding: 0 0 20px 0;
 }
